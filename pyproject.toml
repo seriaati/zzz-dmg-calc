@@ -1,0 +1,23 @@
+[project]
+name = "zzz-dmg-calc"
+version = "0.1.0"
+description = "Zenless Zone Zero damage calculator implemented in Python"
+readme = "README.md"
+authors = [{ name = "seria", email = "seria.ati@gmail.com" }]
+requires-python = ">=3.10"
+dependencies = []
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pyright]
+enableTypeIgnoreComments = false
+reportIncompatibleMethodOverride = false
+reportIncompatibleVariableOverride = false
+reportUnnecessaryComparison = true
+reportUnnecessaryContains = true
+reportUnnecessaryIsInstance = true
+reportUnnecessaryTypeIgnoreComment = true
+typeCheckingMode = "standard"
